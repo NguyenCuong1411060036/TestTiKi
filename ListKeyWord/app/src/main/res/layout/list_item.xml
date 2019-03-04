@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10px"
+    android:background="@drawable/custom_border">
+
+    <TextView
+        android:id="@+id/txt_key_word"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_border"
+        android:gravity="center"
+        android:minLines="2"
+        android:padding="0.1px"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="15dp" />
+</RelativeLayout>
